@@ -29,7 +29,6 @@ venv/
 .vscode/
 .idea/
 .cursor/
-.codex/
 *.swp
 *.swo
 *~
