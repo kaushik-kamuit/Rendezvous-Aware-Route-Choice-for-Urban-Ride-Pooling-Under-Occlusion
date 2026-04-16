@@ -28,6 +28,8 @@ venv/
 # IDE
 .vscode/
 .idea/
+.cursor/
+.codex/
 *.swp
 *.swo
 *~
