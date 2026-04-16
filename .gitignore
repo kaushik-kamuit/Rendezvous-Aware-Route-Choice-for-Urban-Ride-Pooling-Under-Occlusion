@@ -1,0 +1,83 @@
+# Data files
+data/raw/
+data/processed/
+data/urban_context/
+data/route_cache.json
+*.parquet
+*.db
+*.db-journal
+
+# OSRM data
+osrm/data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Results - keep structure, but ignore generated Paper 2 outputs
+results/*.csv
+results/plots/*.png
+results/*.json
+results/plots/*.pdf
+results/dispatch/
+results/green/
+
+# Derived model/domain artifacts
+models/green/
+
+# Paper build artefacts
+paper_rendezvous/*.aux
+paper_rendezvous/*.bbl
+paper_rendezvous/*.blg
+paper_rendezvous/*.fdb_latexmk
+paper_rendezvous/*.fls
+paper_rendezvous/*.log
+paper_rendezvous/*.out
+paper_rendezvous/*.synctex.gz
+paper_rendezvous/*.toc
+paper_rendezvous/*.bak*
+paper_rendezvous/figures/*.pdf
+
+# Local exported drafts
+Kamuit_*.pdf
+
+# Local archived artifact bundles
+artifacts/
+
+# Models
+models/*.pkl
+models/*.bin
+models/*.joblib
+models/*feature_importance*.csv
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
